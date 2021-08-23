@@ -1,0 +1,31 @@
+.home-container {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+}
+.img-1 {
+  width: 100vw;
+  height: 50vh;
+  padding-top: 20px;
+  transform: rotate(180deg);
+  align-self: center;
+  z-index: 0;
+}
+.img-1-txt {
+  padding-left: 20px;
+}
+.img-2 {
+  width: 100vw;
+  height: 65vh;
+  align-self: center;
+}
+.img-2-txt {
+  padding-left: 20px;
+}
+.img-3 {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 10px;
+}

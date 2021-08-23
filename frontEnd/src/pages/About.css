@@ -1,0 +1,11 @@
+.about {
+  margin-top: 50px;
+}
+.background {
+  background-image: url(clarissa-carbungco-uy9DJw9e_vs-unsplash.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}

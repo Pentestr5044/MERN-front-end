@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+
+.menu {
+  border: none;
+  background-color: black;
+  color: white;
+  z-index: 2;
+}
+
+.menu-links {
+  background-color: rgb(121, 110, 110);
+  margin-top: -15px;
+  height: 65px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  position: fixed;
+  padding-right: 40%;
+  top: 0;
+  z-index: 1;
+}
+.btn-txt {
+  color: white;
+  text-decoration: none;
+  align-self: center;
+  margin-right: 20px;
+}
+.btn-txt:hover {
+  font-size: 35px;
+  color: rgb(66, 56, 194);
+}
+.bli-text {
+  font-family: Tangerine, cursive;
+  font-size: xx-large;
+  align-self: center;
+}
+.bli-text:hover {
+  font-size: 65px;
+}

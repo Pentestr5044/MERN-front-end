@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+
+.enter-background {
+  background-color: black;
+  max-height: 100vh;
+  min-height: 100vh;
+  text-align: center;
+  margin-top: -95px;
+  z-index: 1;
+}
+.text {
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 0px;
+  font-family: Tangerine, cursive;
+  font-size: 100px;
+  letter-spacing: 36px;
+  font-weight: 200;
+}
+.enter-button {
+  background-color: transparent;
+  height: 90px;
+  width: 500px;
+  border: 3px, solid;
+  border-color: violet;
+  align-items: center;
+}
+.link-text {
+  padding-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  letter-spacing: 25px;
+  font-weight: 150;
+}
