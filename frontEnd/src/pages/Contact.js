@@ -1,18 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
-
+import './Contact.css';
 
 const Contact = () => {
     return (
         <div>
             <Header />
-        <section>
+        <section className='container'>
         <h1>Contact-Us</h1>
-         <ul>
-         <li>Business Name: Blizzards</li>
-         <li>Address: blah</li>
-         <li>Number: none</li>
-         <li>Location: None</li>
+         <ul className='list'>
+         <li className='txt'>Business Name: Blizzards</li>
+         <li className='txt'>Address: blah</li>
+         <li className='txt'>Number: none</li>
+         <li className='txt'>Location: None</li>
          </ul>
         </section> 
         </div>

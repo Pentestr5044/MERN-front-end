@@ -8,18 +8,23 @@ const Coupons = () => {
         <div>
           <Header />
            <section className='container1'>
-            <h1>This is the Coupons section</h1>
-            <div className="row1">
-           <CouponData className='item'/>
-           <CouponData className='item'/>
-           <CouponData className='item'/>
-           </div>
-           <div className="row2">
-            <CouponData className='item'/>
-            <CouponData className='item'/>
-            <CouponData className='item'/>
-           </div>
-           </section>
+                <h1>This is the Coupons section</h1><br />
+                </section>
+            <section className='container2'>
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                <CouponData />
+                    </section> 
+          
 
         </div>
     )

@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './Logout.css';
-
+import Header from './Header'
 const Logout = () => {
     const submit = () =>{
         const logout = axios.create({
@@ -13,9 +13,16 @@ const Logout = () => {
     
     return (
         <div>
+            <Header />
             <section className="lo-container">
-                <h1>You have logged in!</h1>
-                <button name='btn' onClick={submit}>Logout</button>
+                <h1>You have Reached the User page please use these links to navigate the website!</h1>
+                <ul>
+                    <li className='txt'><a className='txt' href='/Home'>HomePage</a></li>
+                    <li className='txt'><a className='txt' href='/About'>About Our Business</a></li>
+                    <li className='txt'><a className='txt' href='/Coupons'> Share your Coupons</a></li>
+                    <li className='txt'><a className='txt' href='/Recipes'>Please share your recipes with us.</a></li>
+                </ul>
+                <button className='btn' name='btn' onClick={submit}>Logout</button>
             </section>
              
         </div>

@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import '../pages/Recipes.css';
+import apple from './img/chris-dez-t2ZIt-WNXrk-unsplash.jpg';
+
 
 const RecipeData = () => {
     return (
         <div>
            <section>
-           <img src="" alt="" />
+           <img className='img' src={apple} alt="" />
            <p className="txt-image">this is the text for the image</p>
            </section>
-           <article>This is going to be the steps.
-            <ul> 
+           <article className='item_cont'>This is going to be the steps.
+            <ul className='item'> 
             <li>one</li>
             <li>two</li>
             <li>three</li>
